@@ -7,6 +7,8 @@ import Header from './component/Header'
 import MainMenu from './component/MainMenu'
 import Banner from './component/Banner'
 import SideBar from './component/SideBar'
+import MainContent from './component/MainContent'
+import Contact from './component/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +21,8 @@ function App() {
         <MainMenu/>
         <Banner/>
         <SideBar/>
+        <MainContent/>
+        <Contact/>
       </div>
     </>
   )
