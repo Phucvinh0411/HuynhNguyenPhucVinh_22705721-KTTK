@@ -1,0 +1,10 @@
+.menu-top {
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    z-index: -1;
+    width: 60%;
+    height: 700px;
+}
