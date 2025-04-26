@@ -3,6 +3,7 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import TopBar from './component/TopBar'
+import Header from './component/Header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
     <>
       <div className="flex flex-col min-h-screen">
         <TopBar />
+        <Header />
       </div>
     </>
   )

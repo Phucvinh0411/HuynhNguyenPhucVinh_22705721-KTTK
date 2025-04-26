@@ -2,7 +2,7 @@ import "./style.css";
 const TopBar = () => {
     return (
         <>
-            <div className="bg-blue-900 text-white text-sm flex justify-around p-2 space-x-4 menu-top">
+            <div className="bg-blue-900 text-white text-sm flex justify-around p-2 space-x-4 menu-top items-center">
                 <div className="menu-left">
                     <span className="m-2">E-OFFICE</span>
                     <span className="m-2">EMAIL</span>
@@ -15,7 +15,7 @@ const TopBar = () => {
                     <img src="/coMy.png" alt="nppp" className="w-[30px] h-[30px]" />
                 </div>
 
-                <img className="banner" src="/banner.jpg" alt="nô" srcset="" />
+                {/* <img className="banner" src="/banner.jpg" alt="nô" srcset="" /> */}
             </div>
         </>
     )
