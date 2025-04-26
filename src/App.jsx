@@ -4,6 +4,8 @@ import { useState } from 'react'
 import './App.css'
 import TopBar from './component/TopBar'
 import Header from './component/Header'
+import MainMenu from './component/MainMenu'
+import Banner from './component/Banner'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +15,8 @@ function App() {
       <div className="flex flex-col min-h-screen">
         <TopBar />
         <Header />
+        <MainMenu/>
+        <Banner/>
       </div>
     </>
   )
