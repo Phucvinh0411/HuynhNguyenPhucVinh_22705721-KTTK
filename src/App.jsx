@@ -6,6 +6,7 @@ import TopBar from './component/TopBar'
 import Header from './component/Header'
 import MainMenu from './component/MainMenu'
 import Banner from './component/Banner'
+import SideBar from './component/SideBar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         <Header />
         <MainMenu/>
         <Banner/>
+        <SideBar/>
       </div>
     </>
   )
