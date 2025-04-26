@@ -1,6 +1,11 @@
-const Banner= () => {
-    <div className="flex justify-center bg-blue-200 py-8">
-    <img src="/banner_iuh2.jpg" alt="Banner" className="w-3/4" />
-  </div>
+const Banner = () => {
+    return (
+        <>
+            <div className="flex justify-center bg-blue-200 py-8 container">
+                <img src="banner_iuh2.jpg" alt="Banner" className="w-full" />
+            </div>
+        </>
+    )
+
 }
 export default Banner;
